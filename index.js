@@ -62,8 +62,8 @@ people.addEventListener('input',()=>{
 })
 
 reset.addEventListener('click',()=>{
-    tipPerPerson.innerHTML="";
-    amountPerPerson.innerHTML="";
+    tipPerPerson.innerHTML="$0.00";
+    amountPerPerson.innerHTML="$0.00";
     amount.value="";
     people.value="";
     custom.style.display="inline";
